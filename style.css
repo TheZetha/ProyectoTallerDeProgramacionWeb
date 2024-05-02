@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center; /*Centra todo lo de mi body*/
+}
+
+
+.head{
+    display: flex;  /*Alinia los elementos*/
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background-color:rgb(102, 134, 160);
+    position:fixed;/*Se queda posicionado arriba*/
+    z-index: 100;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 30px;
+}
+
+.navbar a{
+    display: block;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; /*para las mayusculas*/
+    font-size: 19px; /*Tamaño de letra*/
+
+}
+
+.navbar a:hover{
+    background: rgb(108, 108, 170);    
+}
+
+.logo a{
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo a:hover{
+    background:rgb(108,108,170) ;
+}
+
+
+
+
+/*BIENVENIDA DE WORK GUIDES*/
+.content-1{
+    height: 89vh;   /*ESTO SIRVE MAS PARA USAR EN ESCRIBIR ENCIMA DE LA IMAGEN*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-1{
+    background: url(img/Imagen1.1.jpg)no-repeat center;
+    background-size: cover;
+    
+}
+
+
+
+.title-1 {
+    padding-top: 160px;
+    padding-bottom: 28px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family:unset;
+}
+
+.content-1 p{
+    margin: 6px; /*Reduce el margen inferior del parrafo*/
+    font-size: 18px;
+    color: black;
+    padding: 8px 0;
+}
+
+.btn1{
+    display: inline-block;
+    border: 3px solid rgb(183, 193, 202);
+    margin-top: 15px; /*Reduce el margen inferior del boton*/
+    margin-bottom: 13px;/**/
+    padding: 15px 50px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(107, 168, 204);
+}
+
+
+
+.header-dir{        /*PONEMOS HORIZONTALMENTE (DIRECCION , TELEFONO , HORARIO)*/
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.header-dir h3{
+    color: white;
+}
+
+.dir{
+    text-align: center;
+    flex: 1;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    margin: 40px 15px;
+    color: white;
+}
+
+.dir2{
+    text-align: center;
+    flex: 1;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    margin: 40px 15px;
+    color: white;
+}
+
+.dir3{
+    text-align: center;
+    flex: 1;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    margin: 40px 15px;
+    color: white;
+}
+
+
+
+/*OBJETIVO*/
+
+.welcome{
+    display: flex;
+    height: 11cm;
+}
+
+.welcome-1{
+    background-image: url(img/Imagen2.2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.welcome-2{
+    width: 100%;
+    padding: 20px;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-2 h2{
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+
+.welcome-2 p{
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.btn2{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:aquamarine;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+/*DESARROLLO PERSONAL Y PROFESIONAL*/
+
+
+.bienvenido{
+    display: flex;
+    height: 11cm;
+}
+
+.bienvendido-1{
+    width: 50%;
+    padding: 20px;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvendido-1  h2{
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+
+.bienvendido-1 p{
+    font-size: 16px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.btn3{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+.bienvenido-2{
+    background-image: url(img/Imagen3.3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 47%;
+    height: 100%;
+    background-color: transparent;
+}
+
+
+
+
+
+/*CARACTERISTICAS(NUESTROS SERVICIOS)*/
+
+.title-2{
+    margin: 34px;
+    margin-top: 2px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    font-family: fantasy;
+}
+
+
+.content-caracteritica{
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+    background-color:rgb(41, 38, 38);
+}
+
+.content-caracteritica p{
+    margin: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+.box{   /*Parte de los cuadrados*/
+    background-color: rgb(34, 33, 33);
+    margin: 1rem;   /*lo separo para que este por separado la parte de cuadrado*/
+    height: 16rem;/*Altura del cuadrado*/
+    width: 14rem; /*Ancho del cuadrado*/
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 1rem rgb(175,63, 85);
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.box i{/*Configurando el icono*/
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;/*El icono este centrado en el circulito*/
+    text-align: center;
+    border-radius: 50%;
+    color: aliceblue;
+    background: rgb(185, 68, 92);
+    font-size: 1rem;
+    margin: 18px 6rem;
+}
+
+.box h3{
+    font-size: 16px;
+    color: rgb(53, 114, 184);
+    margin: 2px;
+}
+
+.box p{
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+.box a{
+    font-size: 12px;
+    margin: 60px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px;
+    color: aliceblue;
+    text-decoration: none;
+    background: rgb(185, 68, 92);
+}
+
+
+
+
+/*PRECIOS /GUIEMESNO DE ESTO , CUANDO HACEMOS MITAD CONTENIDO Y OTRA MITAD IMAGEN)*/
+.prices{
+    display: flex;
+    height: 14cm;
+}
+
+.prices-1{
+    width: 30%;
+    padding-left: 140px;
+    padding-right: 200px;
+    background-color: #191919;
+}
+
+.prices-1 h2{
+    color: white;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+.prices-1 p{
+    color: white;
+    font-size: 14px;
+}
+
+table{
+    margin: 33px 0;
+    width: 100%;
+    text-align: left;       /*Centramoso y esas cosas*/
+    border-collapse: collapse;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;/*Primero a la isquierda lo demas a la derecha*/
+    border-bottom: 1px solid gray; /*Parte de las lineas de la tabla */
+    margin-bottom: 8px;
+}
+
+th{
+    color: aliceblue;
+    padding-bottom: 12px;
+}
+
+td{
+    color: forestgreen;
+}
+
+.btn8{     /*Parte de los botones*/
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: aquamarine;
+}
+
+.price-2{
+    background-image: url(img/Imagen4.4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+}
+
+
+
+
+
+/*NUESTROS DOCUMENTO O CURSOS*/
+
+.container-cursos{
+    padding: 100px 0;/*Aca de otra manera estoy declarando la altura con padding (inferior y superiro diciedo que sera de 100px osea toda mi clase , es decir hasta donde termine mi clase general se termina mi altura)*/
+    text-align: center;
+    background:#1f1f1f;
+}
+
+.curso-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.curso-txt h2{
+    color:rgb(157, 166, 185);
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-family:fantasy;
+}
+
+.curso-txt p{
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    font-size: 19px;
+}
+
+
+/*PRIMERA parte de las FILAS DE IMAGENES*/
+
+.curso-group1{
+    display: flex;
+    justify-content: space-between;/*El display junto con el justify (Estan poniendo a la imagen en fila(Horizontal) )*/
+    margin-bottom: 48px;
+}
+
+.curso1-1{
+    text-align: center;
+}
+
+.curso1-1 img{
+    width: 200px;   /*EN LAS IMAGEN ESTABLECEMOS EL ANCHO*/
+    height: 195px;  /*EN LAS IMAGEN ESTABLECEMOS LA ALTURA */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.curso1-1 h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(157, 166, 185);
+}
+
+.curso1-1 p{
+    padding: 0 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.curso1-1 a{
+    
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: rgb(74, 132, 158);
+    
+}
+
+
+
+
+/*SEGUNDA parte de las FILAS DE IMAGENES*/
+
+.curso-group2{
+    display: flex;
+    justify-content: space-between;/*El display junto con el justify (Estan poniendo a la imagen en fila(Horizontal) )*/
+    margin-bottom: 48px;
+}
+
+.curso2-2{
+    text-align: center;
+}
+
+.curso2-2 img{
+    width: 200px;   /*EN LAS IMAGEN ESTABLECEMOS EL ANCHO*/
+    height: 195px;  /*EN LAS IMAGEN ESTABLECEMOS LA ALTURA */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.curso2-2 h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(157, 166, 185);
+}
+
+.curso2-2 p{
+    padding: 0 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.curso2-2 a{
+    
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: rgb(74, 132, 158);
+    
+}
+
+
+
+/*TERCERA parte de las FILAS DE IMAGENES*/
+
+.curso-group3{
+    display: flex;
+    justify-content: space-between;/*El display junto con el justify (Estan poniendo a la imagen en fila(Horizontal) )*/
+    margin-bottom: 48px;
+}
+
+.curso3-3{
+    text-align: center;
+}
+
+.curso3-3 img{
+    width: 200px;   /*EN LAS IMAGEN ESTABLECEMOS EL ANCHO*/
+    height: 195px;  /*EN LAS IMAGEN ESTABLECEMOS LA ALTURA */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.curso3-3 h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(157, 166, 185);
+}
+
+.curso3-3 p{
+    padding: 0 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.curso3-3 a{
+    
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: rgb(74, 132, 158);
+    
+}
+
+
+
+.multilinea {
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+/*CUARTA parte de las FILAS DE IMAGENES*/
+
+.curso-group4{
+    display: flex;
+    justify-content: space-between;/*El display junto con el justify (Estan poniendo a la imagen en fila(Horizontal) )*/
+    margin-bottom: 48px;
+}
+
+.curso4-4{
+    text-align: center;
+}
+
+.curso4-4 img{
+    width: 200px;   /*EN LAS IMAGEN ESTABLECEMOS EL ANCHO*/
+    height: 195px;  /*EN LAS IMAGEN ESTABLECEMOS LA ALTURA */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.curso4-4 h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgb(157, 166, 185);
+}
+
+.curso4-4 p{
+    padding: 0 50px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.curso4-4 a{
+    
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: rgb(74, 132, 158);
+}
+
+
+
+
+/*PARA LA PARTE DE FORMULARIO*/
+
+
+.footer-bg{
+    background-image:url(img/ImagenForm.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96.1vh;   /*ESTO SIRVE MAS QUE NADA PARA ESCRIBIR ENCIMA DE LA IMAGEN*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-bg-2{
+    background-image:url(img/ImagenForm.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96.1vh;   /*ESTO SIRVE MAS QUE NADA PARA ESCRIBIR ENCIMA DE LA IMAGEN*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+form{/*Etiqueta*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1{
+    margin-bottom: 15px;
+}
+
+.campo{
+    margin: 5px;
+    padding: 20px 12px;/*Poniendo el la altura y ancho*/
+    width: 250px;
+    background: rgb(125, 195, 204);
+    border: 1px solid #4b75e7;
+    outline: none;
+    border-radius: 10px;
+    color: beige;
+    font-size: 14px;
+}
+
+.footer-bg h2{
+    padding-top: 4%;
+    padding-bottom: 3%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:white ;
+    font-family:fantasy;
+}
+
+.btn9{
+    font-size: 15px;
+    margin: 36px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 12px; 
+    color: white;
+    text-decoration: none;
+    background: rgb(8, 91, 105);
+}
+
+
+
+
+
+/*PARTE ULTIMA*/
+
+.footer{
+    height:100vh;
+    background: #1f1f1f;
+}
+
+.footer-content {
+    background-color: rgb(41, 38, 38);
+    display: flex; /* Establece el contenedor como flexbox */
+    justify-content:center; /* Distribuye uniformemente los elementos a lo largo del contenedor */
+ 
+}
+
+.link {
+    margin-right: 112px; /* Añade un margen derecho entre cada elemento */
+    margin-left: 70px;
+    margin-top: 0px;
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.link h3{
+    color: white;
+}
+
+
+/*FRAME*/
+
+.ytframe {
+    background: #1f1f1f;
+    padding-bottom: 15px;
+}

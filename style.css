@@ -367,28 +367,6 @@ body{
     font-size: 14px;
 }
 
-table{
-    margin: 33px 0;
-    width: 100%;
-    text-align: left;       /*Centramoso y esas cosas*/
-    border-collapse: collapse;
-}
-
-tr{
-    display: flex;
-    justify-content: space-between;/*Primero a la isquierda lo demas a la derecha*/
-    border-bottom: 1px solid gray; /*Parte de las lineas de la tabla */
-    margin-bottom: 8px;
-}
-
-th{
-    color: aliceblue;
-    padding-bottom: 12px;
-}
-
-td{
-    color: forestgreen;
-}
 
 .btn8{     /*Parte de los botones*/
     font-size: 15px;
@@ -731,33 +709,7 @@ form{/*Etiqueta*/
 
 /*PARTE ULTIMA*/
 
-.footer{
-    height:100vh;
-    background: #1f1f1f;
-}
 
-.footer-content {
-    background-color: rgb(41, 38, 38);
-    display: flex; /* Establece el contenedor como flexbox */
-    justify-content:center; /* Distribuye uniformemente los elementos a lo largo del contenedor */
- 
-}
-
-.link {
-    margin-right: 112px; /* Añade un margen derecho entre cada elemento */
-    margin-left: 70px;
-    margin-top: 0px;
-    padding-left: 35px;
-    padding-right: 30px;
-    font-size: 18px;
-}
-
-.link h3{
-    color: white;
-}
-
-
-/*FRAME*/
 
 .ytframe {
     background: #1f1f1f;

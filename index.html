@@ -2,227 +2,298 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!--Libreria para poner algunos iconos(Ayuda a crear los iconos)-->
-        <link rel="stylesheet" href="style.css">
-        <title>Ayuda Académica test publish girt</title>
+   
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/table.css">
+        <script defer src="js/app.js"></script>
+        <title>HelpMe</title>
     </head>
 
     <body>
-        <div class="head">
+        <header id="main-header" class="header">
+
+            <h1 class="h1LogoImagen1">
+                <img src="img/svg/bombilla.svg" height="35">
+            </h1>
+
             <div class="logo">
-               <a  href="index.html">Logo</a> 
-            </div>  
+                 <h1 class="h1LogoImagen2">
+              
+                    <img src="img/svg/bombilla.svg" height="35">
+                  </h1>
+                  
+      
+                  <h1 class="h1LogoTexto">
+                      <a href="#" class="a">HELP ME</a>
+                  </h1>
 
-            <nav class="navbar">
-                <a href="#">Inicio</a>
-                <a href="dashboard.html">Dashboard</a>
-                <a href="#servicios">Nosotros</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="signup.html">Crear Cuenta</a>
 
+            </div>
 
+      
+            <button class="button">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+      
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="dashboard.html" class="a">Dashboard</a></li>
+                    <li class="li"><a href="#nosotros" class="a">Nosotros</a></li>
+                    <li class="li"><a href="contacto.html" class="a">Contacto</a></li>
+                     <li class="li"><a href="login.html" class="a">Iniciar sesión</a></li>
+                    <li class="li"><a href="signup.html" class="a">Crear Cuenta</a></li>
+                   </ul>
             </nav>
-         
-        </div>
-
-
-        <header class="content-1">      <!--BIENVENIDA DE WORK GUIDES-->
-            <h2 class="title-1">Work Guides</h2>
-            <P style="color: white;" >
-                "WorkGuides es una plataforma diseñada para brindar ayuda y apoyo a estudiantes en sus trabajos académicos.
-                Inspirada en la exitosa StuDocu, WorkGuides ofrece una amplia gama de recursos y herramientas para facilitar
-                el proceso de aprendizaje y la realización de tareas escolares. Desde guías paso a paso hasta ejemplos prácticos y material de referencia, WorkGuides se esfuerza por ser un compañero confiable en el viaje educativo de los estudiantes, ayudándoles a alcanzar sus metas académicas con confianza y éxito."
-            </P>
-            
-            <a href="login.html" class="btn1">Iniciar sesión</a>
-
-
         </header>
+    
 
 
-
-        
-       <section class="welcome"><!--OBJETIVO DE WORK GUIDES-->
-           
-        <div class="welcome-1"></div><!--Para la imagen-->
-
-            <div class="welcome-2">
-                <h2 class="title-2">Objetivo</h2>  
-                <p class="b1">
-                    Somos un respaldo para ti "Cuenta con nosotros "
-                </p> 
-                <p>
-                    Bienvenidos a Work Guides  nuestro principal objetivo es apoyar a estudiantes como tú en su viaje académico. 
-                    Nuestro objetivo es proporcionarte herramientas, recursos y orientación que te ayuden a alcanzar 
-                    tus metas educativas con confianza y éxito.
-                </p>
-
-               <a target="_blank" href="#" class="btn2">Información</a> 
-
-            </div> 
-
-       </section>
+        <main class="main">
 
 
-
-
-       <section class="bienvenido"><!--DESARROLLO PERSONAL Y PROFESIONAL-->
-           
-            <div class="bienvendido-1">
-                <h2>Recursos de desarrollo personal y profesional</h2>  
-                <p class="b1">
-                    Vuélvete Profesional Con nosotros
-                </p> 
-                <p>
-                    Además de proporcionar ayuda académica, incluye recursos para el desarrollo personal y profesional de los
-                    estudiantes. Esto podría incluir consejos sobre gestión del tiempo, habilidades de comunicación, técnicas
-                    de estudio efectivas, orientación profesional, entre otros.
-                </p>
-
-                <a target="_blank" href="#" class="btn3">Mas Información</a>               
-
-            </div> 
-        
-            <div class="bienvenido-2"></div><!--Para la imagen-->
-
-        </section>
-
-
-
-
-        <section id="servicios" class="content-caracteritica">
-
-            <h2  class="title-2">Nuestros servicios</h2>     <!--CARACTERISTICAS (NUESTROS SERVICIOS)-->
-
-         <p>
-            En WorkGuides, nos enorgullece ofrecer una amplia gama de servicios diseñados para apoyar a los estudiantes en
-            su viaje académico. Nuestra plataforma está diseñada para brindar ayuda y orientación en una variedad de áreas,
-            incluyendo recursos académicos,tutoría personalizada,comunidad de aprendizaje,desarrollo personal y profesional,
-            actualizaciones y novedades ¡Únete a nuestra comunidad hoy y descubre cómo podemos ayudarte en tu viaje educativo!
-         </p> 
-
-         <br>
-        
-
-            <div class="box-container">
-
-                <div class="box">   
-                    <i class="fas fa-phone"></i><!--ICONO-->
-                    <h3>Contáctenos</h3>
-                    <p>922382875</p>
-                    <a target="_blank" href="#" class="btn4">Escríbenos</a>
-                </div>                
-
-
-
-
-                <div class="box">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    <h3>Reclamos</h3>
-                    <p>“Siéntete en total confianza de reclamar algún documento o injusticia en caso se de”</p>
-                    <a target="_blank" href="#" class="btn5">Has tu reclamo</a>
-                </div>
-            
-
-
-
-                <div class="box">
-                    <i class="fab fa-google"></i>
-                    <h3>Búscanos en Google</h3>
-                    <p>Puedes buscarnos en google como Work Guides , tu sitio de confianza</p>
-                    <a target="_blank" href="#" class="btn6">Google</a>
-                </div>               
-
-
-
-
-                <div class="box">
-                    <i class="fas fa-file-contract"></i>
-                    <h3>Compra un documento</h3>
-                    <p>Puedes Comprar documentos de investigaciones</p>
-                    <a target="_blank" href="#" class="btn7">Comprar</a>
-                </div>
-
-
-
-            </div>
-        
-        </section>
-
-
-
-
-        <section class="prices">        <!--PRECIOS-->
-
-            <div class="prices-1">
-                <h2>Lista de precio</h2>
-
-                <p>
-                    "WorkGuides ofrece diferentes planes para adaptarse a tus necesidades. Puedes comenzar con nuestro Plan Básico,
-                    que es gratuito y proporciona acceso limitado a recursos académicos seleccionados. Para una experiencia más
-                    completa, considera nuestro Plan Estudiante, disponible con una suscripción mensual, que incluye acceso completo
-                    a la biblioteca de recursos académicos y sesiones mensuales de tutoría en línea. O elige nuestro Plan Premium 
-                    con una suscripción anual, que ofrece todos los beneficios del Plan Estudiante y sesiones adicionales de tutoría
-                    en línea, acceso exclusivo a contenido premium y soporte prioritario al cliente. <br>    
-                    <table>
-                        <tr>
-                          <th>Tipe user</th>
-                          <th>Prize</th>
-                        </tr>
-                        <tr>
-                          <td>Basic</td>
-                          <td>Free</td>
-                        </tr>
-                        <tr>
-                          <td>Avanced</td>
-                          <td>Premium(s/.100)</td>
-                        </tr>
-                      </table> 
-                </p>
-            
-            </div>
-
-            <div class="price-2"></div><!--Para la imagen-->
-       </section>
-
-
-
-
-
-
-
-       <div class="footer-content">
-
-        <div class="link">
-            <h3>REDES</h3>
-            <ul>
-                <li> <a href="#">FACEBOOK</a> </li>
-                <li> <a href="#">X</a> </li>
-                <li> <a href="#">GMAIL</a> </li>
-             
-            </ul>
-        </div> 
-
-
-        <div class="link">
-            <h3>POLÍTICAS</h3>
-            <ul>
-                <li> <a href="#">Política de privacidad</a> </li>
-                <li> <a href="#">Política de responsabilidad</a> </li>
-                <li> <a href="#">Política de cookies</a> </li>
           
-            </ul>
-        </div> 
+            <div class="caratula" >    
+            
+            
+                <h2 class="tituloCentral">HelpME</h2>
+                <br>
+                <h2 class="tituloSecundario">Aprovecha los millones de archivos compatidos por una comunidad global</h2>
+                <br>
+                <input type="text" class="inputBusqueda" placeholder="Busca tu archivo..." >
+                <br>
+                <a href="login.html" class="botonCentral">Iniciar sesión</a>
+    
+    
+            </div>
+    
+           
+            <div class="row">
+
+                <div class="col2im">
+                    <img class="imagen" src="img/Imagen2.2.jpg" class="img-fluid z-depth-1-half"alt="">
+                </div>
+                <div class="col2">
+                    <h2 class="tituloTerciario">Nuestro Objetivo</h2>  
+                    <br>
+                    <p class="parrafo">
+                        Bienvenidos a Work Guides  nuestro principal objetivo es apoyar a estudiantes como tú en su viaje académico. 
+                        Nuestro objetivo es proporcionarte herramientas, recursos y orientación que te ayuden a alcanzar 
+                        tus metas educativas con confianza y éxito.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+
+                <div class="col2im">
+                    <img class="imagen" src="img/Imagen2.2.jpg" class="img-fluid z-depth-1-half"alt="">
+                </div>
+                
+                <div class="col2">
+                    <h2 class="tituloTerciario">Recursos de desarrollo personal y profesional</h2>  
+                    <br>
+                    <p class="parrafo"id ="nosotros">
+                        Además de proporcionar ayuda académica, incluye recursos para el desarrollo personal y profesional de los
+                        estudiantes. Esto podría incluir consejos sobre gestión del tiempo, habilidades de comunicación, técnicas
+                        de estudio efectivas, orientación profesional, entre otros.
+                   </p>
+                </div>
+            </div>
+
+          
+        
+                <div class="row" >
+                    
+                <div class = "col1">
+                <h2  class="tituloCentral" style="color: black; text-align: center;">Nuestros servicios</h2>     <!--CARACTERISTICAS (NUESTROS SERVICIOS)-->
+                      
+                <br>
+                    <p class="parrafo2">
+                    En WorkGuides, nos enorgullece ofrecer una amplia gama de servicios diseñados para apoyar a los estudiantes en
+                    su viaje académico. Nuestra plataforma está diseñada para brindar ayuda y orientación en una variedad de áreas,
+                    incluyendo recursos académicos,tutoría personalizada,comunidad de aprendizaje,desarrollo personal y profesional,
+                    actualizaciones y novedades ¡Únete a nuestra comunidad hoy y descubre cómo podemos ayudarte en tu viaje educativo!
+                 </p> 
+
+            
+            
+                </div>
+            </div>
+             
+          
 
 
-    </div> 
+                <div >
+                   <div class="box-container">
+       
+                       <div class="box">  
+                        <div class="box1">
+                            <h3>Contáctenos</h3>
+                        </div> 
+                        <div class="box2">
+                            <i class="fas fa-phone"></i>
+                           
+                            <p>922382875</p>
+                            <a target="_blank" href="#" class="btn4">Escríbenos</a>
+
+                        </div>
+                           
+                       </div>                
+       
+       
+       
+       
+                       <div class="box">
+
+                       
+                            <div class="box1">
+                                <h3>Reclamos</h3>
+                            </div>
+                            <div class="box2">
+                                <i class="fas fa-exclamation-triangle"></i>
+                           
+                                <p>“Siéntete en total confianza de reclamar algún documento o injusticia en caso se de”</p>
+                                <a target="_blank" href="#" class="btn5">Has tu reclamo</a>
+                           
+                            </div>
+                          </div>
+                   
+       
+       
+       
+                       <div class="box">
+
+                       
+                            <div class="box1">
+                                <h3>Búscanos en Google</h3>
+                            </div>
+                            
+                            <div class="box2">
+                          <i class="fab fa-google"></i>
+                        
+                           <p>Puedes buscarnos en google como Work Guides , tu sitio de confianza</p>
+                           <a target="_blank" href="#" class="btn6">Google</a>
+                      
+                            </div>
+                            </div>               
+       
+       
+       
+       
+                       <div class="box" >
+
+                       
+                        <div class="box1">
+                            <h3>Compra un documento</h3>
+                        </div>
+                        <div class="box2">
+                            <i class="fas fa-file-contract"></i>
+                         
+                           <p>Puedes Comprar documentos de investigaciones</p>
+                           <a target="_blank" href="#" class="btn7">Comprar</a>
+                       
+                        </div>
+                     </div>
+       
+       
+       
+                   </div>
+            </div>
+            <div class="row" style="padding-bottom: 50px;">
+
+                <div class="col2im">
+                    <img class="imagen" src="img/Imagen2.2.jpg" class="img-fluid z-depth-1-half"alt="">
+                </div>
+                <div class="col2">
+                    <h2 class="tituloTerciario">Lista de precio</h2>  
+                    <br>
+                    <p class="parrafo">
+                        "WorkGuides ofrece diferentes planes para adaptarse a tus necesidades. Puedes comenzar con nuestro Plan Básico,
+                        que es gratuito y proporciona acceso limitado a recursos académicos seleccionados. Para una experiencia más
+                        completa, considera nuestro Plan Estudiante, disponible con una suscripción mensual, que incluye acceso completo
+                        a la biblioteca de recursos académicos y sesiones mensuales de tutoría en línea. O elige nuestro Plan Premium 
+                        con una suscripción anual, que ofrece todos los beneficios del Plan Estudiante y sesiones adicionales de tutoría
+                        en línea, acceso exclusivo a contenido premium y soporte prioritario al cliente. <br>    
+                        <table class="parrafo">
+                            <tr>
+                              <th>Tipe user</th>
+                              <th>Prize</th>
+                            </tr>
+                            <tr>
+                              <td>Basic</td>
+                              <td>Free</td>
+                            </tr>
+                            <tr>
+                              <td>Avanced</td>
+                              <td>Premium(s/.100)</td>
+                            </tr>
+                          </table> 
+                    </p>
+                </div>
+            </div>
 
 
+        <footer class="footer">
 
-    </body>
-    <footer style ="background-color:rgb(102, 134, 160);  padding: 10px;" >
-        <h1 style="text-align: center; color: white;">   UTP© </h1>
-    </footer>
+            <div class="rowFooter" style="margin-top: 3px;">
+
+                <div class="link">
+                    <h3>Acerca de</h3>
+                    <ul>
+                        <li> <a href="#">Acerca de HelpME</a> </li>
+                        <li> <a href="#">Prensa</a> </li>
+                        <li> <a href="#">Contáctanos</a> </li>
+                  
+                    </ul>
+                </div> 
+
+                <div class="link">
+                    <h3>Ayuda</h3>
+                    <ul>
+                        <li> <a href="#">Ayuda</a> </li>
+                        <li> <a href="#">Accesibilidad</a> </li>
+                        <li> <a href="#">Preguntas frecuentes</a> </li>
+                     
+                    </ul>
+                </div> 
+    
+                <div class="link">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li> <a href="#">Términos</a> </li>
+                        <li> <a href="#">Privacidad</a> </li>
+                        <li> <a href="#">Copyright</a> </li>
+                     
+                    </ul>
+                </div>   
+                
+                
+                <div class="link">
+                    <h3>Social</h3>
+                    <ul>
+                        <li> <a href="#">Facebook</a> </li>
+                        <li> <a href="#">Instagram</a> </li>
+                        <li> <a href="#">Mail</a> </li>
+                     
+                    </ul>
+                </div> 
+        
+                
+
+            </div>
+
+
+            <br>
+            <h1 style="text-align: center; color: white;">   UTP© </h1>
+
+        </footer>
+
+
+        </body>
+
 
 </html>

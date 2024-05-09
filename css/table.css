@@ -1,0 +1,6 @@
+table{
+    margin: 33px 0;
+    width: 100%;
+    text-align: left;       /*Centramoso y esas cosas*/
+    border-collapse: collapse;
+}

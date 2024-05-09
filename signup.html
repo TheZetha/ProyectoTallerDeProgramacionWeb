@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!--Libreria para poner algunos iconos(Ayuda a crear los iconos)-->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/main.css">
         <style> 
     
       
@@ -13,22 +14,48 @@
     </head>
 
     <body>
-        <div class="head">
+
+
+        <header id="main-header" class="header">
+
+            <h1 class="h1LogoImagen1">
+                <img src="img/svg/bombilla.svg" height="35">
+            </h1>
+
             <div class="logo">
-               <a  href="index.html">Logo</a> 
-            </div>  
+                 <h1 class="h1LogoImagen2">
+              
+                    <img src="img/svg/bombilla.svg" height="35">
+                  </h1>
+                  
+      
+                  <h1 class="h1LogoTexto">
+                      <a href="index.html" class="a">HELP ME</a>
+                  </h1>
 
-            <nav class="navbar">
-                <a href="index.html">Inicio</a>
-                <a href="dashboard.html">Dashboard</a>
-                <a href="index.html#servicios">Nosotros</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="login.html" >Iniciar sesión</a>
-           
 
+            </div>
+
+      
+            <button class="button">
+              <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+      
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="index.html" class="a">Inicio</a></li>
+                    <li class="li"><a href="dashboard.html" class="a">Dashboard</a></li>
+                    <li class="li"><a href="index.html#nosotros" class="a">Nosotros</a></li>
+                    <li class="li"><a href="contacto.html" class="a">Contacto</a></li>
+                    <li class="li"><a href="login.html" class="a">Iniciar sesión</a></li>
+                </ul>
             </nav>
+        </header>
+    
 
-        </div>
+
 
 
 
@@ -36,7 +63,7 @@
 
         
         <section><!--FORMULARIO-->
-            <div class="footer-bg">
+            <div class="caratula">
                 <h2>Crear cuenta</h2> 
 
                 <form>   
@@ -68,12 +95,63 @@
             </div> 
         </section>
 
+        <footer class="footer">
+
+            <div class="rowFooter" style="margin-top: 3px;">
+
+                <div class="link">
+                    <h3>Acerca de</h3>
+                    <ul>
+                        <li> <a href="#">Acerca de HelpME</a> </li>
+                        <li> <a href="#">Prensa</a> </li>
+                        <li> <a href="#">Contáctanos</a> </li>
+                  
+                    </ul>
+                </div> 
+
+                <div class="link">
+                    <h3>Ayuda</h3>
+                    <ul>
+                        <li> <a href="#">Ayuda</a> </li>
+                        <li> <a href="#">Accesibilidad</a> </li>
+                        <li> <a href="#">Preguntas frecuentes</a> </li>
+                     
+                    </ul>
+                </div> 
+    
+                <div class="link">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li> <a href="#">Términos</a> </li>
+                        <li> <a href="#">Privacidad</a> </li>
+                        <li> <a href="#">Copyright</a> </li>
+                     
+                    </ul>
+                </div>   
+                
+                
+                <div class="link">
+                    <h3>Social</h3>
+                    <ul>
+                        <li> <a href="#">Facebook</a> </li>
+                        <li> <a href="#">Instagram</a> </li>
+                        <li> <a href="#">Mail</a> </li>
+                     
+                    </ul>
+                </div> 
+        
+                
+
+            </div>
+
+
+            <br>
+            <h1 style="text-align: center; color: white;">   UTP© </h1>
+
+        </footer>
 
 
     </body>
  
-    <footer style ="background-color:rgb(102, 134, 160);  padding: 10px;" >
-        <h1 style="text-align: center; color: white;">   UTP© </h1>
-    </footer>
 
 </html>

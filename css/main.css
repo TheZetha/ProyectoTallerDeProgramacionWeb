@@ -619,7 +619,7 @@ form{/*Etiqueta*/
   border: 1px solid #4b75e7;
   outline: none;
   border-radius: 10px;
-  color: beige;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
 

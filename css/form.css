@@ -1,0 +1,31 @@
+.btn9 {
+    padding: 10px 20px; /* Espacio interno para el botón */
+    background-color: #2176e4; /* Azul brillante para el botón */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano */
+}
+
+.btn9:hover {
+    background-color: #175bb5; /* Azul más oscuro para hover */
+}
+
+/* Estilos para el encabezado dentro de la carátula */
+.caratula h2 {
+    font-family: 'Arial', sans-serif; /* Fuente clara y sencilla */
+    font-size: 2.0em; /* Tamaño de fuente mayor para encabezado */
+    text-align: center; /* Texto centrado */
+    color: #154f75; /* Azul oscuro para el texto */
+    margin-bottom: 32px; /* Espacio entre encabezado y formulario */
+}
+
+/* Contenedor del formulario con bordes redondeados y sombra */
+.form-container {
+    background: rgba(240, 248, 255, 0.8); /* Fondo azul claro semi-transparente */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 400px; /* Ancho máximo */
+    text-align: center; /* Texto centrado */
+}

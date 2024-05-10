@@ -601,9 +601,6 @@ header:hover {
 
 }
 
-
-
-
 form{/*Etiqueta*/
   display: flex;
   flex-direction: column;
@@ -618,7 +615,7 @@ form{/*Etiqueta*/
   margin: 5px;
   padding: 20px 12px;/*Poniendo el la altura y ancho*/
   width: 250px;
-  background: rgb(125, 195, 204);
+  background: rgb(255, 255, 255);
   border: 1px solid #4b75e7;
   outline: none;
   border-radius: 10px;
@@ -634,21 +631,6 @@ form{/*Etiqueta*/
   color:white ;
   font-family:fantasy;
 }
-
-.btn9{
-  font-size: 15px;
-  margin: 36px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  border: 1px solid white;
-  padding: 10px 12px; 
-  color: white;
-  text-decoration: none;
-  background: rgb(8, 91, 105);
-}
-
-
 
 
 /*NUESTROS DOCUMENTO O CURSOS*/

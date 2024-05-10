@@ -163,7 +163,6 @@ header:hover {
 }
 .header .li{
   margin: 0 .5em;
-  padding: 1em;
   height: 100%;
 }
 
@@ -172,12 +171,12 @@ header:hover {
   background-color: gray;
 }
 
-.header  .a{
-  border: red;
-  display: flex;
-  display: block;
+.header .ul .li .a{
   height: 100%;
+  padding: 1em;
 }
+
+
 
 .caratula{
     height: 100vh;   
